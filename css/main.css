@@ -1,0 +1,162 @@
+/* resets */
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: rgb(239, 239, 239);
+}
+
+.my-bg-primary{
+  background-color: #053E0A;
+}
+.my-bg-primary-dark{
+  background-color: #032b07;
+}
+.my-text-primary{
+  background-color: #053E0A;
+}
+
+/* header */
+#main-header > #top-bar {
+  min-height: 40px;
+}
+#main-header > #top-bar > .container {
+  min-height: 40px;
+}
+
+#main-header > #main-navbar {
+  min-height: 100px;
+}
+
+
+/* hero section */
+/* main carousel */
+#hero-section > #main-carousel > .image-wrapper > div.slick-list {
+  width: 100%;
+}
+#hero-section > #main-carousel > .image-wrapper > div.slick-list div.item {
+  position: relative;
+}
+#hero-section > #main-carousel > div.image-wrapper > div.slick-list div.item > div.img-overlay {
+  position: absolute;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.2329306722689075) 40%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.2329306722689075) 40%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.2329306722689075) 40%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+  height: 100%;
+  top: 0px;
+}
+#hero-section > #main-carousel
+  > div.image-wrapper
+  > div.slick-list
+  div.item
+  > div.item-element {
+  position: absolute;
+  width: 100%;
+  bottom: 30%;
+}
+#hero-section > #main-carousel > .image-wrapper > div.slick-arrow {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color:#053E0A;
+  z-index: 2;
+  bottom: 50%;
+}
+#hero-section > #main-carousel > .image-wrapper > div.slick-arrow.prev {
+  left: 0px;
+}
+#hero-section > #main-carousel > .image-wrapper > div.slick-arrow.next {
+  right: 0px;
+}
+
+/* quick link cards */
+#hero-section > #quick-links-card-wrapper{
+    margin-top: -100px;
+    position: relative;
+    z-index: 4;
+}
+#hero-section > #quick-links-card-wrapper > div.hero-card{
+    min-height: 222px;
+    flex-basis: 320px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+#principals-message-wrapper div.principal-image-wrapper{
+    max-width: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+/* quick links */
+#quick-links-wrapper{
+  position: relative;
+  background-image: url('../img/quicklink-bg.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#quick-links-wrapper:before{
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.2329306722689075) 40%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.2329306722689075) 40%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(0, 0, 0, 0.2329306722689075) 40%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+  z-index: 2;
+}
+#quick-links-wrapper div.link-wrapper{
+  position: relative;
+  z-index: 3;
+}
+#quick-links-wrapper div.link-wrapper div.icon-wrapper{
+  height: 70px;
+  width: 70px;
+}
+
+#propectus-wrapper button.btn-danger{
+  background-color: #b7212f;
+}
+footer > .container{
+  min-height: 350px;
+}
